@@ -1,0 +1,16 @@
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-arrow {
+    width: 10px;
+    height: 10px;
+
+    margin-left: 5px;
+}
+
+.asc {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,19 @@
+select {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    border: 1px solid #555555;
+
+    height: 57px;
+
+    border-radius: 5px;
+
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.btn-confirm {
+    margin-top: 20px;
+}

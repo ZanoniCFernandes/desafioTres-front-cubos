@@ -1,0 +1,53 @@
+.container-header {
+    width: 100vw;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0px;
+    padding: 0px 60px;
+
+    position: absolute;
+    top: 0;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+
+    cursor: pointer;
+}
+
+.header-right h4 {
+    margin: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Rubik', sans-serif;
+
+    color: #FFFFFF;
+
+    margin-right: 9px;
+}
+
+.exit {
+    cursor: pointer;
+}

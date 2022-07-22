@@ -1,0 +1,83 @@
+.icons {
+    position: relative;
+}
+
+.modal-confirm {
+    position: absolute;
+
+    z-index: 1;
+    top: 35px;
+    left: 42px;
+
+    background-color: #E4F2FD;
+
+    width: 105px;
+    height: 45px;
+
+    border-radius: 5px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.modal-confirm-arrow {
+    position: absolute;
+
+    top: -14px;
+}
+
+.modal-confirm-text {
+    margin-top: 7px;
+    margin-bottom: 5px;
+
+    color: #000000;
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.modal-confirm-buttons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3px;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.modal-confirm-buttons button {
+    all: unset;
+
+    width: 30px;
+    height: 15px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.confirm-yes {
+    background-color: #3A9FF1;
+
+    border-radius: 5px;
+}
+
+.confirm-no {
+    background-color: #FF576B;
+
+    border-radius: 5px;
+}
+
+.confirm-yes:hover {
+    background-color: #2a76b4;
+}
+
+.confirm-no:hover {
+    background-color: #ad3a47;
+
+}
